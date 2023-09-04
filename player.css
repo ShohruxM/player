@@ -1,0 +1,33 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    }
+    a{
+        text-decoration: none;
+    }
+ul , ol{
+    list-style: none;
+}
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header{
+        background-image: url(./header-img/Background.png);
+    }
+    li{
+        background-color: white;
+        padding: 16px;
+        border-radius: 50%;
+    }
+    li a img{
+        /* padding: 13px 15px; */
+        
+    }
