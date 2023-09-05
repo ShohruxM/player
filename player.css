@@ -21,13 +21,53 @@ ul , ol{
     
     .header{
         background-image: url(./header-img/Background.png);
+        background-repeat: no-repeat;
+
     }
     li{
         background-color: white;
         padding: 16px;
         border-radius: 50%;
     }
-    li a img{
-        /* padding: 13px 15px; */
+    .box-right>p{color: #FFF;
+        font-family: Rubik;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 30.8px */
+        letter-spacing: 2.2px;
+        text-transform: uppercase;}
+    .box-right>h1{width: 517px;
+        height: 282px;
+        flex-shrink: 0;color: #FFF;
+        font-family: Rubik;
+        font-size: 99.17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 99.17px */
+        text-transform: uppercase;}
+    .box-right>h3{color: #FFF;
+
+        /* Subtitle / Base */
+        font-family: Rubik;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 57.2px */}
+    .box-right> button{display: flex;
+        width: 191px;
+        padding: 15px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #FF4948;
+        font-family: Rubik;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 30.8px */
+        border-radius: 62px;
+        background: #FFF;}
+
+
         
-    }
