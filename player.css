@@ -54,7 +54,8 @@ ul , ol{
         font-style: normal;
         font-weight: 700;
         line-height: 130%; /* 57.2px */}
-    .box-right> button{display: flex;
+    .box-right> button{
+        display: flex;
         width: 191px;
         padding: 15px 30px;
         justify-content: center;
@@ -68,6 +69,9 @@ ul , ol{
         line-height: 140%; /* 30.8px */
         border-radius: 62px;
         background: #FFF;}
-
+        section{
+            height: 594px;
+            
+        }
 
         
